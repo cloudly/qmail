@@ -96,7 +96,7 @@ writemail <- function (to, from=NULL, subject,
 Content-Type: image/png; name="image001.png"
 Content-Description: image001.png
 Content-Disposition: inline; filename="image001.png"; 
-Content-ID: <image001.png@01CF6310.49B10C00>
+Content-ID: <image001.png>
 Content-Transfer-Encoding: base64\n
       ',  file =target_file,append=T)
     cat(base64encode(graph_url2),  file =target_file,append=T)
